@@ -70,7 +70,7 @@ button {
     width: 150px;
 }
 
-.operand {
+.operand, #equals{
     background-color: orange;
 }
 
@@ -94,4 +94,16 @@ a:visited{
 
 a:hover{
     font-size: 28px;
+}
+
+.operand:hover,#equals:hover{
+    background-color: rgba(255, 166, 0, 0.66);
+}
+
+.operand.active{
+    background-color: rgba(255, 166, 0, 0.435);
+}
+
+button:hover{
+    background-color: rgba(128, 128, 128, 0.648);
 }
