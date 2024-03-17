@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
+    <script src="https://kit.fontawesome.com/ef22dbb6be.js" crossorigin="anonymous"></script>
+    <script src = "app.js" defer></script>
+    <title>Calculator</title>
+</head>
+<body>
+<div class="container">
+    <div class="calculator">
+        <div class="display">
+            <input id = "display" value = "0" readonly>
+        </div>
+       <div class = "rest">
+        <div class="buttons first-row">
+            <button id = "ac"onclick = "display()">AC</button>
+            <button onclick = "display()">Del</button>
+            <button  onclick = "display()">%</button>
+            <button class = "operand" onclick = "display()">/</button>
+        </div>
+        <div class="buttons second-row">
+            <button onclick = "display()">7</button>
+            <button onclick = "display()">8</button>
+            <button onclick = "display()">9</button>
+            <button class = "operand" onclick = "display()">x</button>
+        </div>
+        <div class="buttons third-row">
+            <button onclick = "display()">4</button>
+            <button onclick = "display()">5</button>
+            <button onclick = "display()">6</button>
+            <button class = "operand" onclick = "display()">-</button>
+        </div>
+        <div class="buttons fourth-row">
+            <button onclick = "display()">1</button>
+            <button onclick = "display()">2</button>
+            <button onclick = "display()">3</button>
+            <button class = "operand" onclick = "display()">+</button>
+        </div>
+        <div class="buttons fifth-row">
+            <button id = "zero" onclick = "display()">0</button>
+            <button onclick = "display()">.</button>
+            <button class = "operand" onclick = "display()">=</button>
+        </div>
+       </div>
+    </div>
+</div>
+<footer>
+    <a href = "https://github.com/aryanshrestha16/calculator" target = "_blank">
+        Github
+    <i class="fa-brands fa-github"></i>
+    </a>
+</footer>
+    
+</body>
+</html>
